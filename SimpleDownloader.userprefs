@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleDownloader/DownloadWindow.cs" ctype="Workbench">
+    <Files>
+      <File FileName="../../../Anwendungen/src/mydownloader/MyDownloader.Core/Downloader.cs" Line="68" Column="1" />
+      <File FileName="SimpleDownloader/DownloadWindow.cs" Line="113" Column="27" />
+      <File FileName="SimpleDownloader/Main.cs" Line="11" Column="1" />
+      <File FileName="SimpleDownloader/MainWindow.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
