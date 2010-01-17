@@ -49,7 +49,6 @@ namespace SimpleDownloader {
             this.vbox4.Spacing = 6;
             // Container child vbox4.Gtk.Box+BoxChild
             this.table2 = new Gtk.Table(((uint)(2)), ((uint)(2)), false);
-            this.table2.Name = "table2";
             this.table2.RowSpacing = ((uint)(6));
             this.table2.ColumnSpacing = ((uint)(6));
             // Container child table2.Gtk.Table+TableChild

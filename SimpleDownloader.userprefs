@@ -3,16 +3,22 @@
   <MonoDevelop.Ide.DebuggingService>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService>
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleDownloader/DownloadWindow.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleDownloader/TestDownloadWindow.cs" ctype="Workbench">
     <Files>
-      <File FileName="../../../Anwendungen/src/mydownloader/MyDownloader.Core/Downloader.cs" Line="68" Column="1" />
-      <File FileName="SimpleDownloader/DownloadWindow.cs" Line="113" Column="27" />
-      <File FileName="SimpleDownloader/Main.cs" Line="11" Column="1" />
-      <File FileName="SimpleDownloader/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="SimpleDownloader/DownloadWindow.cs" Line="116" Column="1" />
+      <File FileName="SimpleDownloader/TestDownloadWindow.cs" Line="123" Column="14" />
+      <File FileName="SimpleDownloader/Main.cs" Line="12" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" />
+        <State expanded="True">
+          <Node name="SimpleDownloader" expanded="True">
+            <Node name="TestDownloadWindow.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

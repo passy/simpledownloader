@@ -9,7 +9,7 @@ namespace SimpleDownloader
 		{
 			Application.Init ();
 			
-			DownloadWindow win2 = new DownloadWindow ();
+			TestDownloadWindow win2 = new TestDownloadWindow ();
 			win2.Show ();
 			
 			Application.Run ();

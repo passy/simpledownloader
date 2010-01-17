@@ -64,6 +64,8 @@
     <Compile Include="gtk-gui\SimpleDownloader.MainWindow.cs" />
     <Compile Include="DownloadWindow.cs" />
     <Compile Include="gtk-gui\SimpleDownloader.DownloadWindow.cs" />
+    <Compile Include="TestDownloadWindow.cs" />
+    <Compile Include="gtk-gui\SimpleDownloader.TestDownloadWindow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

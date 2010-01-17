@@ -27,7 +27,7 @@ namespace SimpleDownloader {
         
         private Gtk.Action removeAction;
         
-        private Gtk.Action actionQuit;
+        private Gtk.Action quitAction;
         
         private Gtk.Action addAction;
         
@@ -73,9 +73,9 @@ namespace SimpleDownloader {
             this.removeAction = new Gtk.Action("removeAction", Mono.Unix.Catalog.GetString("Remove"), null, "gtk-remove");
             this.removeAction.ShortLabel = Mono.Unix.Catalog.GetString("Remove");
             w1.Add(this.removeAction, null);
-            this.actionQuit = new Gtk.Action("actionQuit", Mono.Unix.Catalog.GetString("_Quit"), null, "gtk-quit");
-            this.actionQuit.ShortLabel = Mono.Unix.Catalog.GetString("_Quit");
-            w1.Add(this.actionQuit, null);
+            this.quitAction = new Gtk.Action("quitAction", Mono.Unix.Catalog.GetString("_Quit"), null, "gtk-quit");
+            this.quitAction.ShortLabel = Mono.Unix.Catalog.GetString("_Quit");
+            w1.Add(this.quitAction, null);
             this.addAction = new Gtk.Action("addAction", Mono.Unix.Catalog.GetString("_Add Download"), null, "gtk-add");
             this.addAction.ShortLabel = Mono.Unix.Catalog.GetString("_Add");
             w1.Add(this.addAction, null);
@@ -97,7 +97,7 @@ namespace SimpleDownloader {
             this.mainVbox = new Gtk.VBox();
             this.mainVbox.Name = "mainVbox";
             // Container child mainVbox.Gtk.Box+BoxChild
-            this.UIManager.AddUiFromString("<ui><menubar name='menubar1'><menu name='FilesAction' action='FilesAction'><menuitem name='addAction1' action='addAction1'/><menuitem name='preferencesAction' action='preferencesAction'/><menuitem name='actionQuit' action='actionQuit'/></menu><menu name='DownloadAction' action='DownloadAction'/><menu name='HelpAction' action='HelpAction'><menuitem name='actionAbout' action='actionAbout'/></menu></menubar></ui>");
+            this.UIManager.AddUiFromString("<ui><menubar name='menubar1'><menu name='FilesAction' action='FilesAction'><menuitem name='addAction1' action='addAction1'/><menuitem name='preferencesAction' action='preferencesAction'/><menuitem name='quitAction' action='quitAction'/></menu><menu name='DownloadAction' action='DownloadAction'/><menu name='HelpAction' action='HelpAction'><menuitem name='actionAbout' action='actionAbout'/></menu></menubar></ui>");
             this.menubar1 = ((Gtk.MenuBar)(this.UIManager.GetWidget("/menubar1")));
             this.menubar1.Name = "menubar1";
             this.mainVbox.Add(this.menubar1);
@@ -146,7 +146,7 @@ namespace SimpleDownloader {
             this.DefaultWidth = 588;
             this.DefaultHeight = 384;
             this.Show();
-            this.actionQuit.Activated += new System.EventHandler(this.OnActionQuitActivated);
+            this.quitAction.Activated += new System.EventHandler(this.OnActionQuitActivated);
             this.addAction.Activated += new System.EventHandler(this.OnAddActionActivated);
         }
     }
